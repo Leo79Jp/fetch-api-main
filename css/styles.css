@@ -37,5 +37,32 @@ h1{
   text-align: center;
 }
 .btnContainer button{
-  padding: 5px 15px;
+  /* padding: 5px 15px; */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #20272c;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  &:hover{
+    background-color: #363e44;
+  }
+}
+
+img{
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+p{
+  margin-block: 3px;
+  margin-left: 15px;
+}
+hr{
+  background-color: #20272c;
+  margin-inline: 15px;
+
 }
